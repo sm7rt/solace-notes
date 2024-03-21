@@ -1,0 +1,21 @@
+{
+  "name": "solace-notes",
+  "version": "1.0.0",
+  "description": "## Overview",
+  "main": "index.js",
+  "scripts": {
+    "start:frontend": "cd notes-frontend && npm start",
+    "start:backend": "cd notes-backend && npm start",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@sm7rt.github.com:sm7rt/solace-notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
